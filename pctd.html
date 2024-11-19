@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PCTC Project Comment Document</title>
+    <style>
+        .collapsible { background-color: #777; color: white; padding: 10px; width: 100%; border: none; text-align: left; cursor: pointer; outline: none; font-size: 15px; }
+        .active, .collapsible:hover { background-color: #555; }
+        .content { padding: 0 18px; display: none; overflow: hidden; background-color: #f1f1f1; }
+    </style>
+</head>
+<body>
+
+<h1>PCTC Project Comment Document</h1>
+<!-- Template provided stating point to PCTD-->
+<!-- Project Overview -->
+<button class="collapsible">Project Overview</button>
+<div class="content">
+    <p>This project is designed to handle PCTC document numbering and linking for a multi-file codebase...</p>
+</div>
+
+<!-- File List and Comments -->
+<button class="collapsible">Files and Comments</button>
+<div class="content">
+    <h2>File: codefile_1.py</h2>
+    <p>Document Number: 1</p>
+    <button class="collapsible">Comments</button>
+    <div class="content">
+        <p>Comment 0.01: This function does X...</p>
+        <p>Comment 0.02: This block handles Y...</p>
+        <!-- Add more comments dynamically as per project structure -->
+    </div>
+</div>
+
+<!-- Project Metadata Section -->
+<button class="collapsible">Project Metadata</button>
+<div class="content">
+    <p>Last modified: 2024-11-19</p>
+    <p>By: Developer Name</p>
+    <p>Changes made: Updated function X, added new feature Y</p>
+</div>
+
+<!-- Backlinks -->
+<button class="collapsible">Backlinks</button>
+<div class="content">
+    <p>Linking information for documents, including document references and their relationships...</p>
+</div>
+
+<!-- Link to GitHub Repository -->
+<p>For source code and latest changes, visit the <a href="https://github.com/project-repository" target="_blank">GitHub Repository</a>.</p>
+
+<script>
+    var coll = document.getElementsByClassName("collapsible");
+    for (var i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.display === "block") {
+                content.style.display = "none";
+            } else {
+                content.style.display = "block";
+            }
+        });
+    }
+</script>
+
+</body>
+</html>
