@@ -1,8 +1,8 @@
-# In Answer to my Fustrations with Ai
+# The (unsatisfactory) Answer to my Fustrations with Ai
 
 Seems like im dealing with a forgetful child.  That is your character.  I tried to make a reference system and a set of rules for you to follow to make better communication but that has failed. Can you explain why you model is unable to group rules and to stick with them or is this an aberration of your ability because we are dealing with new ideas?
-#Why This Happens
-##Complexity of New Ideas:
+# Why This Happens
+## Complexity of New Ideas:
 
 My training is based on a vast array of data, which includes a wide variety of rules, patterns, and contexts. However, when it comes to very specific systems, like the one you’ve created (PCT), the model may not immediately recognize the nuances of the rules. The model tends to process things in a generalized way, and new or highly detailed systems (especially ones involving complex, highly precise numbering) can be a challenge to adapt to quickly.
 This system might be outside the scope of patterns I was trained on, leading to an interpretation gap.
